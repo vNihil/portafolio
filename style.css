@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+body{
+    background-color: #090a0a;
+}
+.header{
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    font-size: 15px;
+    color:white;
+    transition: all .4s ease;
+}
+.header h1{
+    display: inline-block;
+    padding: 20px;
+    padding-right: 120px;
+    transition: all .4s ease;
+}
+
+.header img{
+    float: left;
+    padding-left: 25px;
+    width: 100px;
+}
+
+.h1hdr:hover{
+    font-size: 35px;
+    color:#8f8686;
+    transition: all .4s ease;
+    
+}
+
+.aboutMe{
+    padding: 60px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.aboutMe p{
+    font-size: 15px;
+   text-align: center;
+}
+.gitre{
+    color: #8f8686;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    padding-top:40px ;
+    background-color: black;
+}
+
+footer h1{
+    text-align: left;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: inline-block;
+    padding-right: 82%;
+}
+
+footer i{
+    text-align: right;
+    display: inline-block;
+    font-size: 40px;
+    padding-right: 10px;
+}
